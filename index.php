@@ -32,6 +32,11 @@
                 </div>
             </div>
         </nav>
+
+
+        <div class="col-md-4" style="background-color: grey;float: right;padding-bottom: 37%;">
+            <p>ici il y a un chatbot askyp</p>
+        </div>
         <script src="http://code.jquery.com/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </body>
