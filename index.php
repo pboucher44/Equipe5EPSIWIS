@@ -5,6 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Bootstrap -->
         <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+        <script src="js/bootstrap.min.js"></script>
+        <script src="http://code.jquery.com/jquery.js"></script>
+        <script src="ChatBot/ChatBot.js"></script>
+                
     </head>
     <body>
 
@@ -34,10 +38,13 @@
         </nav>
 
 
-        <div class="col-md-4" style="background-color: grey;float: right;padding-bottom: 37%;">
+        <div id="chat" class="col-md-4" style="background-color: grey;float: right;padding-bottom: 37%;">
             <p>ici il y a un chatbot askyp</p>
+            <script>
+                cb = new ChatBot();
+                cb.printText("ok","ok");
+            </script>
+            
         </div>
-        <script src="http://code.jquery.com/jquery.js"></script>
-        <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
