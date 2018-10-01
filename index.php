@@ -8,7 +8,7 @@
     </head>
     <body>
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top" style="font-size:1.5em;">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top" style="font-size:1.5em;height: 10%">
             <div class="container" style="margin-top: 5px;margin-bottom: 5px;">
                 <img src="./images/LOGO_HEP_EDUCATION_BASELINE-FR.png" alt="" style="width: 20%;">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,11 +32,13 @@
                 </div>
             </div>
         </nav>
-
-
-        <div class="col-md-4" style="background-color: grey;float: right;padding-bottom: 37%;">
-            <p>ici il y a un chatbot askyp</p>
+        <div class="col-md-4" style="position: absolute;background-color: grey;margin-left: 66%;padding-bottom: 37%;border-radius: 30px;">
+            <p> </p>
         </div>
+        <video autoplay muted loop id="myVideo">
+            <source src="./video/Presentation_CAMPUS_HEP_Nantes.mp4" type="video/mp4">
+          </video>
+
         <script src="http://code.jquery.com/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </body>
