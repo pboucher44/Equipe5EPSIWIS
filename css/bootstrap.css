@@ -8956,4 +8956,12 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
+
+
+#myVideo {
+   display: block;
+   object-fit: fill;
+   width: 100%;
+   height:88vh;
+}
 /*# sourceMappingURL=bootstrap.css.map */
