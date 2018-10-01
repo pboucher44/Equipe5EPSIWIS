@@ -32,12 +32,28 @@
                 </div>
             </div>
         </nav>
-        <div class="col-md-4" style="position: absolute;background-color: grey;margin-left: 66%;padding-bottom: 37%;border-radius: 30px;">
-            <p> </p>
+        <div class="pre-scrollable" style="position: absolute;background-color: grey;margin-left: 70%;max-height: 75%;border-radius: 30px;width: 30%">
+            
+            <br>
+            <div class="decal-droit">
+                <p style="margin-left: 3%;margin-right: 3%;">
+                    Coactique aliquotiens nostri pedites ad eos persequendos scandere clivos sublimes etiam si lapsantibus plantis fruticeta prensando vel dumos ad vertices venerint summos, inter arta tamen et invia nullas acies explicare permissi nec firmare nisu valido gressus: hoste discursatore rupium abscisa volvente, ruinis ponderum inmanium consternuntur, aut ex necessitate ultima fortiter dimicante, superati periculose per prona discedunt.
+                </p>
+            </div>
+            <div class="decal-gauche">
+            <p>
+                Coactique aliquotiens nostri pedites ad eos persequendos scandere clivos sublimes etiam si lapsantibus plantis fruticeta prensando vel dumos ad vertices venerint summos, inter arta tamen et invia nullas acies explicare permissi nec firmare nisu valido gressus: hoste discursatore rupium abscisa volvente, ruinis ponderum inmanium consternuntur, aut ex necessitate ultima fortiter dimicante, superati periculose per prona discedunt.
+            </p>
+            </div>
+            <div class="decal-droit">
+                <p>
+                    Coactique aliquotiens nostri pedites ad eos persequendos scandere clivos sublimes etiam si lapsantibus plantis fruticeta prensando vel dumos ad vertices venerint summos, inter arta tamen et invia nullas acies explicare permissi nec firmare nisu valido gressus: hoste discursatore rupium abscisa volvente, ruinis ponderum inmanium consternuntur, aut ex necessitate ultima fortiter dimicante, superati periculose per prona discedunt.
+                </p>
+            </div>
         </div>
         <video autoplay muted loop id="myVideo">
             <source src="./video/Presentation_CAMPUS_HEP_Nantes.mp4" type="video/mp4">
-          </video>
+        </video>
 
         <script src="http://code.jquery.com/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
