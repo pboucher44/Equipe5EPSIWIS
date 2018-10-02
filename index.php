@@ -33,7 +33,7 @@
                                 <a class="nav-link">Nos écoles</a>
                                 
                                 <div class="dropdown-content" style="font-size: 0.8em;background-color: #343a40;">
-                                    <a class="nav-link" style="border-top: solid;" href="http://www.pornhub.com" target=_blank>EPSI</a>
+                                    <a class="nav-link" style="border-top: solid;" href="http://www.epsi.fr/campus/campus-de-nantes/" target=_blank>EPSI</a>
                                     <a class="nav-link" style="border-top: solid;" href="http://www.ecoles-idrac.com/Idrac/Campus-de-Nantes" target=_blank>IDRAC</a>
                                     <a class="nav-link" style="border-top: solid;" href="http://www.ifag.com/campus/campus-de-nantes/" target=_blank>IFAG</a>
                                     <a class="nav-link" style="border-top: solid;" href="http://www.opensourceschool.fr/campus/nantes/" target=_blank>OPEN SOURCE SCHOOL</a>
