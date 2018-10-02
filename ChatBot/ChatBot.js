@@ -3,6 +3,6 @@ class ChatBot{
         
     }
     printText(message,cssclass){
-        $("#chat").append("<div class="+cssclass+"><p>ok</p></div>");
+        $("#chat").append("<div class="+cssclass+"><p>"+message+"</p></div>");
     }
 }

@@ -59,7 +59,6 @@
                 <script>
                     cb = new ChatBot();
                     cb.printText("ok", "decal-droit");
-                    setInterval(cb.printText("ok"),1000);
                 </script>
             </div>
             </div>
