@@ -50,9 +50,10 @@
     <video autoplay muted loop id="myVideo" style="position: absolute;">
         <source src="./video/Presentation_CAMPUS_HEP_Nantes.mp4" type="video/mp4">
     </video>
-    <div id="chat" class="pre-scrollable" style="position:absolute;background-color: #88888888;margin-left: 70%;max-height: 75%;border-radius: 30px;width: 30%"><br>
 
-        <div>
+    <div class="pre-scrollable" style="position:absolute;background-color: #88888888;margin-left: 70%;max-height: 75%;border-radius: 30px;width: 30%"><br>
+
+        <div id="chat">
             <script>
                 cb = new ChatBot();
                 cb.printText("question 1", "decal-gauche");
@@ -66,13 +67,20 @@
         </div>
 
 
-        </script>
-    </div>
 
+
+
+
+        <div class="choiceBox">
+            <div href="#" class="myButton" onclick="$(location).attr('href', 'http://google.com')">graphicriver</div>
+        </div>
     </div>
-    <div class="choiceBox">
-        <div href="#" class="myButton" onclick="$(location).attr('href', 'http://google.com')">graphicriver</div>
-    </div>
+         <script>
+                cb = new ChatBot();
+                cb.printText("reponse 2", "decal-droit");
+
+            </script>
+
 </body>
 
 
