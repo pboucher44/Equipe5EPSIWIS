@@ -58,14 +58,10 @@
                     Coactique aliquotiens nostri pedites ad eos persequendos scandere clivos sublimes etiam si lapsantibus plantis fruticeta prensando vel dumos ad vertices venerint summos, inter arta tamen et invia nullas acies explicare permissi nec firmare nisu valido gressus: hoste discursatore rupium abscisa volvente, ruinis ponderum inmanium consternuntur, aut ex necessitate ultima fortiter dimicante, superati periculose per prona discedunt.
                 </p>
             </div>
-            <div id="chat" class="col-md-4" style="background-color: grey;float: right;">
-                <p>ici il y a un chatbot askyp</p>
-                <script>
-                    cb = new ChatBot();
-                    cb.printText("ok", "ok");
-                </script>
-            </div>
-            </div>
+            <script>
+                cb = new ChatBot();
+                cb.printText("epsi c'est génial waouh", "decal-droit");
+            </script>
         </div>
     </body>
 
