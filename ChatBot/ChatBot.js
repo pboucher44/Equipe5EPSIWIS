@@ -7,7 +7,6 @@ class ChatBot {
     }
     
     loadDialog(){
-        $.delay(5);
         $.ajax({url:'ChatBot/test.js'});
     }
 
