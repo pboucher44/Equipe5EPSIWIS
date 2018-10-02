@@ -1,6 +1,6 @@
 <?php
     if(isset($_POST['param1'])){
-        $text = "gagjoiaghaiohg";
+        $text = "gg";
         json_encode($text);
     }
 ?>
