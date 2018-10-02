@@ -30,15 +30,15 @@
                         </li>
                         <li class="nav-item">
                             <div class="dropdown">
-                                <a class="nav-link">Contact</a>
+                                <a class="nav-link">Nos écoles</a>
                                 
                                 <div class="dropdown-content" style="font-size: 0.8em;background-color: #343a40;">
-                                    <a class="nav-link" style="border-top: solid;" href="#">EPSI</a>
-                                    <a class="nav-link" style="border-top: solid;" href="#">IDRAC</a>
-                                    <a class="nav-link" style="border-top: solid;" href="#">IFAG</a>
-                                    <a class="nav-link" style="border-top: solid;" href="#">OPEN SOURCE SCHOOL</a>
-                                    <a class="nav-link" style="border-top: solid;" href="#">SUP DE COM</a>
-                                    <a class="nav-link" style="border-top: solid;" href="#">WIS</a>
+                                    <a class="nav-link" style="border-top: solid;" href="http://www.epsi.fr/campus/campus-de-nantes/" target=_blank>EPSI</a>
+                                    <a class="nav-link" style="border-top: solid;" href="http://www.ecoles-idrac.com/Idrac/Campus-de-Nantes" target=_blank>IDRAC</a>
+                                    <a class="nav-link" style="border-top: solid;" href="http://www.ifag.com/campus/campus-de-nantes/" target=_blank>IFAG</a>
+                                    <a class="nav-link" style="border-top: solid;" href="http://www.opensourceschool.fr/campus/nantes/" target=_blank>OPEN SOURCE SCHOOL</a>
+                                    <a class="nav-link" style="border-top: solid;" href="http://www.ecoles-supdecom.com/campus/nantes/" target=_blank>SUP DE COM</a>
+                                    <a class="nav-link" style="border-top: solid;" href="http://www.wis-ecoles.com/campus/campus-de-nantes/" target=_blank>WIS</a>
                                 </div>
                             </div>
                         </li>
