@@ -88,7 +88,9 @@
 
 
         <div class="choiceBox">
-            <div href="#" class="myButton" onclick="$(location).attr('href', 'http://google.com')">graphicriver</div>
+            <div href="#" class="myButton" onclick="changeContent('Presentation_CAMPUS_HEP_Nantes.mp4')">campus HEP</div>
+            <div href="#" class="myButton" onclick="changeContent('30 Secondes sur le SENS DE LA VIE.mp4')">sens de la vie</div>
+            <div href="#" class="myButton" onclick="changeContent('epsi_logo.png')">EPSI</div>
         </div>
     </div>
     <script>
