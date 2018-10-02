@@ -14,6 +14,17 @@
 </head>
 
 <body>
+    <script>
+        $.ajax({
+                url: 'modele/SelectConversation.php',
+                data: {param1: "ok"},
+                type: "post",
+                success: function(output) {
+                    alert(output);
+                }
+            });
+
+        </script>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top" style="font-size:1.5em;height: 12vh">
         <div class="container" style="margin-top: 5px;margin-bottom: 5px;">
             <img src="./images/LOGO_HEP_EDUCATION_BASELINE-FR.png" alt="" style="width: 20%;">
@@ -75,11 +86,6 @@
             <div href="#" class="myButton" onclick="$(location).attr('href', 'http://google.com')">graphicriver</div>
         </div>
     </div>
-         <script>
-                cb = new ChatBot();
-                cb.printText("reponse 2", "decal-droit");
-
-            </script>
 
 </body>
 
