@@ -37,8 +37,8 @@
                     </ul>
                 </div>
         </nav>
-        <div class="pre-scrollable" style="position: absolute;background-color: grey;margin-left: 70%;max-height: 75%;border-radius: 30px;width: 30%">
-
+        <div class="pre-scrollable" style="position: relative;background-color: grey;margin-left: 70%;height: 75%;border-radius: 30px;width: 30%">
+            <div style="height: 100%;">
             <br>
             <div class="decal-droit">
                 <p style="margin-left: 3%;margin-right: 3%;">
@@ -61,6 +61,7 @@
                     cb = new ChatBot();
                     cb.printText("ok", "ok");
                 </script>
+            </div>
             </div>
         </div>
 
