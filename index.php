@@ -61,6 +61,7 @@
             <script>
                 cb = new ChatBot();
                 cb.printText("reponse 2", "decal-droit");
+
             </script>
         </div>
 
