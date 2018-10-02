@@ -13,8 +13,8 @@
 
 </head>
 
-<body>
-    <script>
+    <body>
+            <script>
         $.ajax({
                 url: 'modele/SelectConversation.php',
                 data: {param1: "ok"},
@@ -25,31 +25,32 @@
             });
 
         </script>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top" style="font-size:1.5em;height: 12vh">
-        <div class="container" style="margin-top: 5px;margin-bottom: 5px;">
-            <img src="./images/LOGO_HEP_EDUCATION_BASELINE-FR.png" alt="" style="width: 20%;">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Accueil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages du site/aPropos.php">A propos</a>
-                    </li>
-                    <li class="nav-item">
-                        <div class="dropdown">
-                            <a class="nav-link">Contact</a>
-
-                            <div class="dropdown-content" style="font-size: 0.8em;background-color: #343a40;">
-                                <a class="nav-link" style="border-top: solid;" href="#">EPSI</a>
-                                <a class="nav-link" style="border-top: solid;" href="#">IDRAC</a>
-                                <a class="nav-link" style="border-top: solid;" href="#">IFAG</a>
-                                <a class="nav-link" style="border-top: solid;" href="#">OPEN SOURCE SCHOOL</a>
-                                <a class="nav-link" style="border-top: solid;" href="#">SUP DE COM</a>
-                                <a class="nav-link" style="border-top: solid;" href="#">WIS</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top" style="font-size:1.5em;height: 12vh">
+            <div class="container" style="margin-top: 5px;margin-bottom: 5px;">
+                <img src="./images/LOGO_HEP_EDUCATION_BASELINE-FR.png" alt="" style="width: 20%;">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages du site/aPropos.php">A propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <a class="nav-link">Nos écoles</a>
+                                
+                                <div class="dropdown-content" style="font-size: 0.8em;background-color: #343a40;">
+                                    <a class="nav-link" style="border-top: solid;" href="http://www.epsi.fr/campus/campus-de-nantes/" target=_blank>EPSI</a>
+                                    <a class="nav-link" style="border-top: solid;" href="http://www.ecoles-idrac.com/Idrac/Campus-de-Nantes" target=_blank>IDRAC</a>
+                                    <a class="nav-link" style="border-top: solid;" href="http://www.ifag.com/campus/campus-de-nantes/" target=_blank>IFAG</a>
+                                    <a class="nav-link" style="border-top: solid;" href="http://www.opensourceschool.fr/campus/nantes/" target=_blank>OPEN SOURCE SCHOOL</a>
+                                    <a class="nav-link" style="border-top: solid;" href="http://www.ecoles-supdecom.com/campus/nantes/" target=_blank>SUP DE COM</a>
+                                    <a class="nav-link" style="border-top: solid;" href="http://www.wis-ecoles.com/campus/campus-de-nantes/" target=_blank>WIS</a>
+                                </div>
                             </div>
                         </div>
                     </li>
