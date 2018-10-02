@@ -13,7 +13,6 @@
     </head>
 
     <body>
-
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top" style="font-size:1.5em;height: 12vh">
             <div class="container" style="margin-top: 5px;margin-bottom: 5px;">
                 <img src="./images/LOGO_HEP_EDUCATION_BASELINE-FR.png" alt="" style="width: 20%;">
@@ -62,7 +61,7 @@
                 <p>ici il y a un chatbot askyp</p>
                 <script>
                     cb = new ChatBot();
-                    cb.printText("ok", "ok");
+                    cb.printText("ok", "decal-droit");
                 </script>
             </div>
             </div>
