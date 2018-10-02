@@ -45,7 +45,7 @@
             <br>
             <div class="decal-droit">
                 <p>
-                    Coactique aliquotiens nostri pedites ad eos persequendos scandere clivos sublimes etiam si lapsantibus plantis fruticeta prensando vel dumos ad vertices venerint summos, inter arta tamen et invia nullas acies explicare permissi nec firmare nisu valido gressus: hoste discursatore rupium abscisa volvente, ruinis ponderum inmanium consternuntur, aut ex necessitate ultima fortiter dimicante, superati periculose per prona discedunt.
+                    Coactique aliquotiens nostri pedites aaaaaaaaa aaaaaaa aaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaad eos persequendos scandere clivos sublimes etiam si lapsantibus plantis fruticeta prensando vel dumos ad vertices venerint summos, inter arta tamen et invia nullas acies explicare permissi nec firmare nisu valido gressus: hoste discursatore rupium abscisa volvente, ruinis ponderum inmanium consternuntur, aut ex necessitate ultima fortiter dimicante, superati periculose per prona discedunt.
                 </p>
             </div>
             <div class="decal-gauche">
@@ -64,6 +64,7 @@
                     cb = new ChatBot();
                     cb.printText("ok", "ok");
                 </script>
+            </div>
             </div>
         </div>
     </body>
