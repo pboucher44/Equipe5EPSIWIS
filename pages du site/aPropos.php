@@ -33,7 +33,7 @@
                                 <a class="nav-link">Nos écoles</a>
                                 
                                 <div class="dropdown-content" style="font-size: 0.8em;background-color: #343a40;">
-                                    <a class="nav-link" style="border-top: solid;" href="http://www.pornhub.com" target=_blank>EPSI</a>
+                                    <a class="nav-link" style="border-top: solid;" href="http://www.epsi.fr/campus/campus-de-nantes/" target=_blank>EPSI</a>
                                     <a class="nav-link" style="border-top: solid;" href="http://www.ecoles-idrac.com/Idrac/Campus-de-Nantes" target=_blank>IDRAC</a>
                                     <a class="nav-link" style="border-top: solid;" href="http://www.ifag.com/campus/campus-de-nantes/" target=_blank>IFAG</a>
                                     <a class="nav-link" style="border-top: solid;" href="http://www.opensourceschool.fr/campus/nantes/" target=_blank>OPEN SOURCE SCHOOL</a>
@@ -49,7 +49,7 @@
         </nav>
         <div class="container">
             <br>
-            <h1>Context</h1>
+            <h1>Contexte</h1>
             <p>« Innover c’est dépasser les contraintes » Philosophe Bretonne. Pendant cette semaine, vous allez concevoir et développer une solution informatique et/ou digitale qui permettra de découvrir/visiter votre campus.
                 Cette ressource doit permettre: 
             <div style="margin-left: 5%;">
@@ -65,11 +65,8 @@
             </div>
             <br>Elle doit permettre à chacun des publics de découvrir le campus, les ressources dont il a besoin. Pour se faire vous pouvez utiliser la gamification, la réalité virtuelle, la réalité augmentée, toutes les technologies à votre disposition.</p>
             <h1>Notre solution</h1>
-            <p>Nous avons donc penser faire un chatBot qui permettera a toute personne se 
-                posant des questions d'avoir une réponse rapide de façon ludique. 
-                Les informations seront accompagnées d'images/vidéo pour présenter le campus et les écoles présente a l'intérieur. 
-                <br>Néanmoins le réel public visé est l'étudiant et le lycéen souhaitant avoir des renseignements.</p>
-
+            <p>Nous avons donc pensé à produire un chatBot qui permettera a toute personne se posant des questions d'avoir une réponse rapide de façon ludique. Les informations seront accompagnées d'images/vidéos pour présenter le campus et les écoles présentes a l'intérieur de celui-ci. 
+                <br>Néanmoins le public visé est l'étudiant et plus particulièrement le lycéen à la recherche d'une formation post bac souhaitant avoir des renseignements pour son orientation future.</p>
         </div>
     </body>
 </html>
