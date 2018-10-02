@@ -39,33 +39,28 @@
         <video autoplay muted loop id="myVideo" style="position: absolute;">
             <source src="./video/Presentation_CAMPUS_HEP_Nantes.mp4" type="video/mp4">
         </video>
-        <div class="pre-scrollable" style="position:absolute;background-color: #88888888;margin-left: 70%;max-height: 75%;border-radius: 30px;width: 30%">
-
-            <br>
+        <div id ="chat" class="pre-scrollable" style="position:absolute;background-color: #88888888;margin-left: 70%;max-height: 75%;border-radius: 30px;width: 30%"><br>
+            
             <div class="decal-gauche">
-                <p>
-                    Coactique aliquotiens nostri pedites aaaaaaaaa aaaaaaa aaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaad eos persequendos scandere clivos sublimes etiam si lapsantibus plantis fruticeta prensando vel dumos ad vertices venerint summos, inter arta tamen et invia nullas acies explicare permissi nec firmare nisu valido gressus: hoste discursatore rupium abscisa volvente, ruinis ponderum inmanium consternuntur, aut ex necessitate ultima fortiter dimicante, superati periculose per prona discedunt.
-                </p>
-            </div>
-            <div class="decal-droit">
-                <p>
-                    Coactique aliquotiens nostri pedites ad eos persequendos scandere clivos sublimes etiam si lapsantibus plantis fruticeta prensando vel dumos ad vertices venerint summos, inter arta tamen et invia nullas acies explicare permissi nec firmare nisu valido gressus: hoste discursatore rupium abscisa volvente, ruinis ponderum inmanium consternuntur, aut ex necessitate ultima fortiter dimicante, superati periculose per prona discedunt.
-                </p>
-            </div>
-            <div class="decal-gauche">
-                <p>
-                    Coactique aliquotiens nostri pedites ad eos persequendos scandere clivos sublimes etiam si lapsantibus plantis fruticeta prensando vel dumos ad vertices venerint summos, inter arta tamen et invia nullas acies explicare permissi nec firmare nisu valido gressus: hoste discursatore rupium abscisa volvente, ruinis ponderum inmanium consternuntur, aut ex necessitate ultima fortiter dimicante, superati periculose per prona discedunt.
-                </p>
-            </div>
-            <div id="chat" class="decal-gauche">
-                <p>ici il y a un chatbot askyp</p>
                 <script>
                     cb = new ChatBot();
-                    cb.printText("ok", "decal-droit");
+                    cb.printText("question 1", "decal-gauche");
+                </script>
+                <script>
+                    cb = new ChatBot();
+                    cb.printText("reponse 1", "decal-droit");
+                </script>
+                <script>
+                    cb = new ChatBot();
+                    cb.printText("question 2", "decal-gauche");
+                </script>
+                <script>
+                    cb = new ChatBot();
+                    cb.printText("reponse 2", "decal-droit");
                 </script>
             </div>
-            </div>
         </div>
-    </body>
+    </div>
+</body>
 
 </html>
