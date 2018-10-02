@@ -8973,6 +8973,16 @@ a.text-dark:hover, a.text-dark:focus {
     border-radius: 20px;
 }
 
+.pre-scrollable .decal-gauche p{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.pre-scrollable .decal-droit p{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
 .pre-scrollable .decal-droit{
     margin-left: 2%;
     margin-right: 20%;

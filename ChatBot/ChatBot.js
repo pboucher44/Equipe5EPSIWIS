@@ -2,7 +2,8 @@ class ChatBot{
     constructor(){
         
     }
-    printText(message,user){
-        $("#chat").append("<p>ok</p>");
+    printText(message){
+        //$("#chat").append("<div class='cssclass'><p>ok</p></div>");
+        $("#chat").append("<p></p>");
     }
 }
