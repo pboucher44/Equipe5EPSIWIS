@@ -41,7 +41,7 @@
         </video>
         <div id ="chat" class="pre-scrollable" style="position:absolute;background-color: #88888888;margin-left: 70%;max-height: 75%;border-radius: 30px;width: 30%"><br>
             
-            <div class="decal-gauche">
+            <div>
                 <script>
                     cb = new ChatBot();
                     cb.printText("question 1", "decal-gauche");
@@ -58,6 +58,28 @@
                     cb = new ChatBot();
                     cb.printText("reponse 2", "decal-droit");
                 </script>
+            </div>
+            <div class="choiceBox" >
+                <button>Test1</button>
+                <button>Test</button>
+                <button>Test</button>
+                <button>Test</button>
+                <button>Test8</button>
+                <button>Test1</button>
+                <button>Test</button>
+                <button>Test</button>
+                <button>Test</button>
+                <button>Test8</button>
+                <button>Test1</button>
+                <button>Test</button>
+                <button>Test</button>
+                <button>Test</button>
+                <button>Test8</button>
+                <button>Test1</button>
+                <button>Test</button>
+                <button>Test</button>
+                <button>Test</button>
+                <button>Test8</button>
             </div>
         </div>
     </div>
