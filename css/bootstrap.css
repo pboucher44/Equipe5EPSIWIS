@@ -8965,7 +8965,7 @@ a.text-dark:hover, a.text-dark:focus {
    height:88vh;
 }
 
-.pre-scrollable .decal-gauche{
+.pre-scrollable .decal-droit{
     margin-right: 2%;
     margin-left: 20%;
     text-align: right;
@@ -8973,17 +8973,17 @@ a.text-dark:hover, a.text-dark:focus {
     border-radius: 20px;
 }
 
-.pre-scrollable .decal-gauche p{
-    margin-left: 3%;
-    margin-right: 3%;
-}
-
 .pre-scrollable .decal-droit p{
     margin-left: 3%;
     margin-right: 3%;
 }
 
-.pre-scrollable .decal-droit{
+.pre-scrollable .decal-gauche p{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.pre-scrollable .decal-gauche{
     margin-left: 2%;
     margin-right: 20%;
     text-align: left;
