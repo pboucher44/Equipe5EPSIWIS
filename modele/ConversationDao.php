@@ -16,12 +16,12 @@ class ConversationDAO {
      * @return Etablissement
      */
      protected static function enregVersMetier(array $enreg) {
-        $id = $enreg['id'];
-        $texte = $enreg['texte'];
-        $ordre = $enreg['ordre'];
-        $couleur = $enreg['couleur'];
-        $conversation = $enreg['conversation'];
-        $suivante = $enreg['suivante'];
+        $id = $enreg[0];
+        $texte = $enreg[1];
+        $ordre = $enreg[2];
+        $couleur = $enreg[3];
+        $conversation = $enreg[4];
+        $suivante = $enreg[5];
         $uneConversation = new Conversation($id, $texte, $ordre, $couleur, $conversation, $suivante);
         return $uneConversation;
     }
@@ -51,7 +51,7 @@ class ConversationDAO {
      */
      public static function getOneById($conversation) {
         $objetConstruit = null;
-        $requete = "SELECT * FROM Conversation WHERE conversation = :coversation";
+        $requete = "SELECT * FROM Conversation WHERE conversation = :conversation";
         $stmt = Bdd::getPdo()->prepare($requete);
         $stmt->bindParam(':conversation', $conversation);
         $ok = $stmt->execute();

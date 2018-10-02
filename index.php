@@ -1,4 +1,11 @@
 <!DOCTYPE html>
+<?php
+use modele\ConversationDAO;
+use modele\Conversation;
+use modele\Bdd;
+require_once __DIR__.'/includes/autoload.php';
+Bdd::connecter();
+?>
 <html>
 
     <head>
@@ -73,12 +80,19 @@
                     cb.printText("reponse 2", "decal-droit");
 
                 </script>
+                <?php
+                $conv = ConversationDAO::getOneById(1);
+                echo $conv[1];
+                ?>
+                <script>
+                    cb = new ChatBot();
+                    cb.printText("reponse 2", "decal-droit");
+
+                </script>
             </div>
             <div class="choiceBox">
                 <div href="#" class="myButton" onclick="$(location).attr('href', 'http://google.com')">graphicriver</div>
             </div>
-
-
         </div>
     </body>
 
