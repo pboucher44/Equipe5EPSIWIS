@@ -59,8 +59,10 @@
                     cb.printText("reponse 2", "decal-droit");
                 </script>
             </div>
+            <div href="#" class="myButton" onclick="$(location).attr('href', 'http://pornhub.com')">graphicriver</div>
+            
+            <p></p>
         </div>
-    </div>
 </body>
 
 </html>
