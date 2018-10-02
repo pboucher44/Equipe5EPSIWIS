@@ -60,15 +60,16 @@
             <script>
                 cb = new ChatBot();
                 cb.printText("reponse 2", "decal-droit");
-
+                setTimeout(cb.loadDialog(),5000);
             </script>
         </div>
-        <div class="choiceBox">
-            <div href="#" class="myButton" onclick="$(location).attr('href', 'http://google.com')">graphicriver</div>
-        </div>
+        
 
 
     </div>
+        <div class="choiceBox">
+            <div href="#" class="myButton" onclick="$(location).attr('href', 'http://google.com')">graphicriver</div>
+        </div>
 </body>
 
 </html>
