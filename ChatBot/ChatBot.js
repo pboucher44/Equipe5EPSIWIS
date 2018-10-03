@@ -1,17 +1,22 @@
-class ChatBot {
-    constructor() {
+    var steps = ["step0", "step1", "step2", "step3", "step4", "step5", "step6", "step7"];
 
-    }
-    printText(message, cssclass) {
-        $("#chat").append("<div class=" + cssclass + "><p>" + message + "</p></div>");
-    }
+    class ChatBot {
 
-    buttonAssociator(obj){
-     
-        for(var i = 0 ; i<obj.size()-2; i++){
-            
+
+        constructor() {
+
         }
-        
+        printText(message, cssclass) {
+            $("#chat").append("<div class=" + cssclass + "><p>" + message + "</p></div>");
+        }
+
+        buttonAssociator(obj) {
+            $("#buttonsList").empty();
+            for (var i = 0; i < obj.length - 2; i++) {
+                $("#buttonsList").append("<div class=\"myButton\" onclick=\"changeContent("
+                    +obj[i + 2]+")\">" + "école" + "</div>");
+            }
+
+        }
+
     }
-    
-}
