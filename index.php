@@ -17,7 +17,6 @@
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top" style="font-size:1.5em;height: 12vh">
         <div class="container" style="margin-top: 5px;margin-bottom: 5px;">
             <img class="animated animated fadeIn slow" src="./images/LOGO_HEP_EDUCATION_BASELINE-FR.png" alt="" style="width: 20%;">
@@ -43,15 +42,16 @@
                                 <a class="nav-link" style="border-top: solid;" href="http://www.wis-ecoles.com/campus/campus-de-nantes/" target=_blank>WIS</a>
                             </div>
                         </div>
-                    </li>
-                    <li class="nav-item animated fadeInRight slow">
-                        <a class="nav-link" href="./pages du site/aPropos.php">A propos</a>
-                    </li>
-                </ul>
-
-
-                </ul>
             </div>
+            </li>
+            <li class="nav-item animated fadeInRight slow">
+                <a class="nav-link" href="./pages du site/aPropos.php">A propos</a>
+            </li>
+            </ul>
+
+
+            </ul>
+        </div>
     </nav>
     <div id="changeVid">
         <video class="animated fadeIn fast" autoplay muted loop id="myVideo" style="position: absolute;">
@@ -80,7 +80,6 @@
             <div href="#" class="myButton" onclick="changeContent('epsi_logo.png')">EPSI</div>
         </div>
     </div>
-
     <script>
         cb = new ChatBot();
         cb.buttonAssociator(["0", "1", "2"]);
@@ -88,6 +87,5 @@
     </script>
 
 </body>
-
 
 </html>
