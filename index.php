@@ -86,7 +86,8 @@
     </div>
     <script>
         cb = new ChatBot();
-        cb.buttonAssociator(["Epsi", "epsi.txt", "1","2","3"]);
+        pb = new CsvToArray();
+        cb.buttonAssociator(processData.tab[0]);
 
     </script>
 

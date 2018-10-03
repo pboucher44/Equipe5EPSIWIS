@@ -1,5 +1,5 @@
 var tab = [];
-class csvtoarray {
+class CsvToArray {
 
 
     constructor() {
