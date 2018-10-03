@@ -1,1 +1,12 @@
-tarifs
+WIS 1<br>
+Concours : 90 €<br>
+Scolarité : 6 190 €<br><br>
+WIS 2<br>
+Concours : 90 €<br>
+Scolarité : 6 990 €<br><br>
+WIS 3<br>
+Concours : 90 €<br>
+Scolarité : 7 990 €<br><br>
+EXPERT 4<br>
+Concours : 100 €<br>
+Scolarité : 8 590 €<br>
