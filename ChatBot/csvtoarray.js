@@ -6,6 +6,7 @@ class csvtoarray {
                 type: "GET",
                 url: "data/bdd.csv",
                 dataType: "text",
+                async:"false",
                 success: function (data) {
                     tab = processData(data);
                 }
