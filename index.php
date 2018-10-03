@@ -9,6 +9,7 @@
     <link href="css/bootstrap.css" rel="stylesheet" media="screen">
     <link rel="icon" href="favicon.ico" />
     <script src="js/bootstrap.min.js"></script>
+    <script src="ChatBot/csvtoarray.js"></script>
     <script src="https://d3js.org/d3.v5.js"></script>
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="ChatBot/ChatBot.js"></script>
@@ -82,7 +83,7 @@
     </div>
     <script>
         cb = new ChatBot();
-        cb.buttonAssociator(["0", "1", "2"]);
+        cb.buttonAssociator(["Epsi", "epsi.txt", "1","2"]);
 
     </script>
 

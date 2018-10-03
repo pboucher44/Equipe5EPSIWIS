@@ -18,7 +18,7 @@ class csvtoarray{
                 lines.push(tarr);
             }
         }
-        console.log(lines);
+        return(lines);
     }
 }
 
