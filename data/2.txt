@@ -1,1 +1,5 @@
-demarrerVisite
+Bonjour,
+<br>
+bienvenue sur le site du Campus HEP !
+<br><br>
+Appuyez sur le bouton pour commencer.
