@@ -1,1 +1,5 @@
-wis
+WIS (Web International School) est une école qui propose une formation web et digital business
+accessible après le Bac ou en admission parallèle.<br>
+WIS forme les apprenants aux métiers du web et accompagne les entreprises dans leur
+transformation digitale. Les formations WIS sont accessibles en initial ou en alternance.<br>
+Sur quoi veux-tu des informations ?
