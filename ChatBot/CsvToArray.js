@@ -41,7 +41,7 @@ class CsvToArray {
 
     getNom(index) {
 
-        var nom = tab[index];
+        var nom = this.tab[index];
         return nom
     }
 }
