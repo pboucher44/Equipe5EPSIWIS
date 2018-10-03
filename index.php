@@ -11,13 +11,6 @@
         <script src="http://code.jquery.com/jquery.js"></script>
         <script src="ChatBot/ChatBot.js"></script>
         <script src="js/changementVideo.js"></script>
-         <script type="text/javascript">
-    function load()
-    {
-    window.location.href = "http://youporn.com";
-
-    }
-    </script>
 
     </head>
 
@@ -94,13 +87,11 @@
     <script>
         $.ajax({
             url: 'modele/SelectConversation.php',
-            data: {
-                param1: "ok"
-            },
+            data: param1
             dataType: 'json',
             type: "post",
             success: function(output) {
-                alert(output);
+                alert(param1);
             }
         });
 
