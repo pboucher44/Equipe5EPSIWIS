@@ -79,7 +79,7 @@
     <script>
         cb = new ChatBot();
         pb = new CsvToArray();
-        alert(pb.getNom(10));
+        alert((pb.getNom(10))[1]);
         //cb.buttonAssociator();
 
     </script>
