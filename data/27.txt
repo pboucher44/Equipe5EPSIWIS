@@ -1,1 +1,11 @@
-modules
+Bloc de compétences n°1 : Stratégie digitale &amp; Management
+<br>
+Bloc de compétences n°2 : Innovation Digitale &amp; Optimisation des Processus Métier
+<br>
+Bloc de compétences n°3 : Performance &amp; Analyse de données digitales
+<br>
+Bloc de compétences n°4 : Management de Projet Digital &amp; Accompagnement au Changement
+<br>
+Bloc de compétences n°6 : Etudes &amp; Développement de solutions digitales
+<br>
+Bloc de compétences n°7 : Digitalisation &amp; Supply Chain
