@@ -12,6 +12,7 @@
         <script src="https://d3js.org/d3.v5.js"></script>
         <script src="http://code.jquery.com/jquery.js"></script>
         <script src="ChatBot/ChatBot.js"></script>
+        <script src="ChatBot/csvtoarray.js"></script>
         <script src="js/changementVideo.js"></script>
 
     </head>
@@ -67,6 +68,10 @@
                 <script>
                     cb = new ChatBot();
                     cb.printText("reponse 2", "decal-droit");
+                    csv = new csvtoarray();
+                    var nom = [];
+                    nom = csv.getNom(6);
+                    console.log(nom);
                 </script>
             </div>
 
@@ -77,36 +82,5 @@
             <div href="#" class="myButton" onclick="changeContent('epsi_logo.png')">EPSI</div>
         </div>
     </div>
-<script>
-    $(document).ready(function () {
-    $.ajax({
-        type: "GET",
-        url: "data/bdd.csv",
-        dataType: "text",
-        success: function (data) {
-            processData(data);
-        }
-    });
-});
-
-function processData(allText) {
-    var allTextLines = allText.split(/\r\n|\n/);
-    var headers = allTextLines[0].split(',');
-    var lines = [];
-
-    for (var i = 1; i < allTextLines.length; i++) {
-        var data = allTextLines[i].split(',');
-        if (data.length == headers.length) {
-
-            var tarr = [];
-            for (var j = 0; j < headers.length; j++) {
-                tarr.push(data[j]);
-            }
-            lines.push(tarr);
-        }
-    }
-    console.log(lines);
-}
-</script>
     </body>
 </html>
