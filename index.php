@@ -79,8 +79,8 @@
     <script>
         cb = new ChatBot();
         pb = new CsvToArray();
-        alert(pb.tab);
-        //cb.buttonAssociator();
+        alert(pb.tab[5]);
+        cb.buttonAssociator(pb.tab[5]);
 
     </script>
 

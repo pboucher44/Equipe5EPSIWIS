@@ -1,10 +1,7 @@
-var tab = [];
 class CsvToArray {
-
 
     constructor() {
         var myvar;
-
 
         function processData(allText) {
             var allTextLines = allText.split(/\r\n|\n/);
@@ -34,7 +31,7 @@ class CsvToArray {
                 myvar = data;
             }
         });
-        tab = processData(myvar);
+        this.tab = processData(myvar);
 
     }
 
