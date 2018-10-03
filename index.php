@@ -72,6 +72,14 @@
                 cb.printText("reponse 2", "decal-droit");
 
             </script>
+            <script>
+                cb = new ChatBot();
+                cb.printText("reponse 2", "decal-droit");
+                csv = new csvtoarray();
+                var nom = [];
+                nom = csv.getNom(6);
+                console.log(nom);
+            </script>
         </div>
 
 
@@ -83,7 +91,7 @@
     </div>
     <script>
         cb = new ChatBot();
-        cb.buttonAssociator(["Epsi", "epsi.txt", "1","2"]);
+        cb.buttonAssociator(["Epsi", "epsi.txt", "1","2","3"]);
 
     </script>
 
