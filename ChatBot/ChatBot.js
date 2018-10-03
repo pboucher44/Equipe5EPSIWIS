@@ -5,7 +5,13 @@ class ChatBot {
     printText(message, cssclass) {
         $("#chat").append("<div class=" + cssclass + "><p>" + message + "</p></div>");
     }
-    loadDialog(){
-        $.ajax({url:'ChatBot/test.js'});
+
+    buttonAssociator(obj){
+     
+        for(var i = 0 ; i<obj.size()-2; i++){
+            
+        }
+        
     }
+    
 }

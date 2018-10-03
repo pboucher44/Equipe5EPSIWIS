@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $.ajax({
         type: "GET",
-        url: "test.csv",
+        url: "data/BDD.ods",
         dataType: "text",
         success: function (data) {
             processData(data);
