@@ -8,8 +8,8 @@
         <!-- Bootstrap -->
         <link href="../css/bootstrap.css" rel="stylesheet" media="screen">
         <script src="../js/bootstrap.min.js"></script>
+        <link rel="icon" href="favicon.ico" />
         <script src="http://code.jquery.com/jquery.js"></script>
-        <script src="../ChatBot/ChatBot.js"></script>
 
     </head>
 

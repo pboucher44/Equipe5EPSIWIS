@@ -7,6 +7,7 @@
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <!-- Bootstrap -->
         <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+        <link rel="icon" href="favicon.ico" />
         <script src="js/bootstrap.min.js"></script>
         <script src="https://d3js.org/d3.v5.js"></script>
         <script src="http://code.jquery.com/jquery.js"></script>
