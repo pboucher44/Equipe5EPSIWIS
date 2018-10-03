@@ -42,36 +42,7 @@
                                 <a class="nav-link" style="border-top: solid;" href="http://www.ecoles-supdecom.com/campus/nantes/" target=_blank>SUP DE COM</a>
                                 <a class="nav-link" style="border-top: solid;" href="http://www.wis-ecoles.com/campus/campus-de-nantes/" target=_blank>WIS</a>
                             </div>
-                        </li>
-                        <li class="nav-item animated fadeInRight slow">
-                            <a class="nav-link" href="./pages du site/aPropos.php">A propos</a>
-                        </li>
-                    </ul>
-
-
-                    </ul>
-                </div>
-        </nav>
-        <div id="changeVid">
-            <video class="animated fadeIn fast" autoplay muted loop id="myVideo" style="position: absolute;">
-                <source src="./video/Presentation_CAMPUS_HEP_Nantes.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="pre-scrollable animated fadeInRight slow" style="position:absolute;background-color: #88888888;margin-left: 70%;max-height: 75%;border-radius: 30px;width: 30%"><br>
-
-            <div id="chat">
-                <script>
-                    cb = new ChatBot();
-                    cb.printText("question 1", "decal-gauche");
-                </script>
-                <script>
-                    cb = new ChatBot();
-                    cb.printText("reponse 2", "decal-droit");
-                    csv = new csvtoarray();
-                    var nom = [];
-                    nom = csv.getNom(6);
-                    console.log(nom);
-                </script>
+                        </div>
             </div>
             </li>
             <li class="nav-item animated fadeInRight slow">
@@ -112,7 +83,7 @@
     </div>
     <script>
         cb = new ChatBot();
-        cb.buttonAssociator(["Epsi", "epsi.txt", "1","2"]);
+        cb.buttonAssociator(["Epsi", "epsi.txt", "1","2","3"]);
 
     </script>
 
