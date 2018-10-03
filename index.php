@@ -72,6 +72,14 @@
                 cb.printText("reponse 2", "decal-droit");
 
             </script>
+            <script>
+                cb = new ChatBot();
+                cb.printText("reponse 2", "decal-droit");
+                csv = new csvtoarray();
+                var nom = [];
+                nom = csv.getNom(6);
+                console.log(nom);
+            </script>
         </div>
 
 
