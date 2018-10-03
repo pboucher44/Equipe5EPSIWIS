@@ -9,7 +9,7 @@
     <link href="css/bootstrap.css" rel="stylesheet" media="screen">
     <link rel="icon" href="favicon.ico" />
     <script src="js/bootstrap.min.js"></script>
-    <script src="ChatBot/CsvToArray.js"></script>
+    <script src="Chatbot/CsvToArray.js"></script>
     <script src="https://d3js.org/d3.v5.js"></script>
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="ChatBot/ChatBot.js"></script>
@@ -59,7 +59,7 @@
         <div id="chat">
             <script>
                 cb = new ChatBot();
-                cb.printText("question 1", "decal-gauche");
+                cb.printText("question oui1", "decal-gauche");
 
             </script>
             <script>

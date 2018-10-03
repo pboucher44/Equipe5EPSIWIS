@@ -14,7 +14,10 @@ class CsvToArray {
 
                     var tarr = [];
                     for (var j = 0; j < headers.length; j++) {
-                        tarr.push(data[j]);
+                        if (data[j] !== ""){
+                            tarr.push(data[j]);                          
+                        }
+
                     }
                     lines.push(tarr);
                 }
