@@ -1,11 +1,4 @@
 <!DOCTYPE html>
-<?php
-use modele\ConversationDAO;
-use modele\Conversation;
-use modele\Bdd;
-require_once __DIR__.'/includes/autoload.php';
-Bdd::connecter();
-?>
 <html>
 
     <head>
@@ -18,21 +11,11 @@ Bdd::connecter();
         <script src="http://code.jquery.com/jquery.js"></script>
         <script src="ChatBot/ChatBot.js"></script>
         <script src="js/changementVideo.js"></script>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
 
     </head>
 
     <body>
-            <script>
-        $.ajax({
-                url: 'modele/SelectConversation.php',
-                data: {param1: "ok"},
-                type: "post",
-                success: function(output) {
-                    alert(output);
-                }
-            });
-
-        </script>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top" style="font-size:1.5em;height: 12vh">
             <div class="container" style="margin-top: 5px;margin-bottom: 5px;">
                 <img class="animated animated fadeIn slow" src="./images/LOGO_HEP_EDUCATION_BASELINE-FR.png" alt="" style="width: 20%;">
@@ -68,52 +51,30 @@ Bdd::connecter();
                     </ul>
                 </div>
         </nav>
-        <video autoplay muted loop id="myVideo" style="position: absolute;">
-            <source src="./video/Presentation_CAMPUS_HEP_Nantes.mp4" type="video/mp4">
-        </video>
-        <div id="chat" class="pre-scrollable" style="position:absolute;background-color: #88888888;margin-left: 70%;max-height: 75%;border-radius: 30px;width: 30%"><br>
-
-            <div>
-                                <?php
-                $conv = ConversationDAO::getOneById(1);
-                $text = $conv->getTexte();
-                ?>
-                <script>
-                    cb = new ChatBot();
-                    var text = '<?php echo $text; ?>';
-                    cb.printText(text, "decal-gauche");
-
-                </script>
-                <!--<script>
-                    cb = new ChatBot();
-                    cb.printText("reponse 1", "decal-droit");
-
-                </script>
-                <script>
-                    cb = new ChatBot();
-                    cb.printText("question 2", "decal-gauche");
-
-                </script>
-                <script>
-                    cb = new ChatBot();
-                    cb.printText("reponse 2", "decal-droit");
-
-                </script>
-                <script>
-                    cb = new ChatBot();
-                    cb.printText("reponse 2", "decal-droit");
-
-                </script>-->
-            </div>
-            <div class="choiceBox">
-                <div href="#" class="myButton" onclick="changeContent('30 Secondes sur le SENS DE LA VIE.mp4')">sens de la vie</div>
-                <div href="#" class="myButton" onclick="changeContent('epsi_logo.png')">logo epsi</div>
-                <div href="#" class="myButton" onclick="changeContent('Presentation_CAMPUS_HEP_Nantes.mp4')">hep nantes</div>
-            </div>
+        <div id="changeVid">
+            <video class="animated fadeIn fast" autoplay muted loop id="myVideo" style="position: absolute;">
+                <source src="./video/Presentation_CAMPUS_HEP_Nantes.mp4" type="video/mp4">
+            </video>
         </div>
-        <script>
-            cb = new ChatBot();
-            cb.printText("reponse 2", "decal-droit");
-        </script>
+        <div class="pre-scrollable animated fadeInRight slow" style="position:absolute;background-color: #88888888;margin-left: 70%;max-height: 75%;border-radius: 30px;width: 30%"><br>
+
+            <div id="chat">
+                <script>
+                    cb = new ChatBot();
+                    cb.printText("question 1", "decal-gauche");
+                </script>
+                <script>
+                    cb = new ChatBot();
+                    cb.printText("reponse 2", "decal-droit");
+                </script>
+            </div>
+
+
+        <div class="choiceBox">
+            <div href="#" class="myButton" onclick="changeContent('Presentation_CAMPUS_HEP_Nantes.mp4')">campus HEP</div>
+            <div href="#" class="myButton" onclick="changeContent('30 Secondes sur le SENS DE LA VIE.mp4')">sens de la vie</div>
+            <div href="#" class="myButton" onclick="changeContent('epsi_logo.png')">EPSI</div>
+        </div>
+    </div>
     </body>
 </html>
