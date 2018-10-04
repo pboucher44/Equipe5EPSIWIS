@@ -1,7 +1,7 @@
-Développement d’applications informatique
+DÃ©veloppement dâapplications informatique
 <br>
-Administration infrastructure système &amp; réseau
+Administration infrastructure systÃ¨me &amp; rÃ©seau
 <br>
-Gestion des données
+Gestion des donnÃ©es
 <br>
 Communication

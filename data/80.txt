@@ -1,29 +1,29 @@
 Bachelor 1 
 <br>
-Concours 90€
+Concours 90â¬
 <br>
-Scolarité 6 690€
+ScolaritÃ© 6 690â¬
 <br>
 Bachelor 2 
 <br>
-Concours 90€
+Concours 90â¬
 <br>
-Scolarité 6 690€
+ScolaritÃ© 6 690â¬
 <br>
 Bachelor 3 
 <br>
-Concours 90€
+Concours 90â¬
 <br>
-Scolarité 8 290€
+ScolaritÃ© 8 290â¬
 <br>
-Ingénierie 4 
+IngÃ©nierie 4 
 <br>
-Concours 100€
+Concours 100â¬
 <br>
-Scolarité 8 690€
+ScolaritÃ© 8 690â¬
 <br>
-	Ingénierie 5 
+	IngÃ©nierie 5 
 <br>
-	Concours 125€
+	Concours 125â¬
 <br>
-	Scolarité 9 000€
+	ScolaritÃ© 9 000â¬

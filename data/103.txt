@@ -1,13 +1,13 @@
-Bloc de compétences n°1 : Direction générale de l’entreprise
+Bloc de compÃ©tences nÂ°1 : Direction gÃ©nÃ©rale de lÂ’entreprise
 <br>
-Bloc de compétences n°2 : Management des ressources humaines
+Bloc de compÃ©tences nÂ°2 : Management des ressources humaines
 <br>
-Bloc de compétences n°3 : Management de la fonction marketing et communication
+Bloc de compÃ©tences nÂ°3 : Management de la fonction marketing et communication
 <br>
-Bloc de compétences n°4 : Management de la fonction commerciale en France et à l’international
+Bloc de compÃ©tences nÂ°4 : Management de la fonction commerciale en France et Ã  lÂ’international
 <br>
-Bloc de compétences n°5 : Management de la fonction administrative et financière
+Bloc de compÃ©tences nÂ°5 : Management de la fonction administrative et financiÃ¨re
 <br>
-Bloc de compétences n°6 : Management des opérations de l’entreprise et supply-chain
+Bloc de compÃ©tences nÂ°6 : Management des opÃ©rations de lÂ’entreprise et supply-chain
 <br>
-Bloc de compétences n°7 : Management de la transmission / Reprise d’entreprise
+Bloc de compÃ©tences nÂ°7 : Management de la transmission / Reprise dÂ’entreprise

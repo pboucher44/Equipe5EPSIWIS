@@ -1,1 +1,1 @@
-La gestion des données est une vision du management du système d'information qui se construit simplement autour de la nature de la donnée et non en fonction d'un système et ses interactions.
+La gestion des donnÃ©es est une vision du management du systÃ¨me d'information qui se construit simplement autour de la nature de la donnÃ©e et non en fonction d'un systÃ¨me et ses interactions.
