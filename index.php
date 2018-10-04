@@ -13,7 +13,7 @@
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="ChatBot/ChatBot.js"></script>
     <script src="js/changementVideo.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
     <style>
         ::-webkit-scrollbar-button{ display: none; height: 13px; border-radius: 0px; background-color: #AAAAAA55; } ::-webkit-scrollbar-button:hover{ background-color: #AAAAAA55; } ::-webkit-scrollbar-thumb{ background-color: #CCCCCC22; box-shadow: 2px 2px 10px rgba(0,0,0,5) inset; border-radius: 5px; } ::-webkit-scrollbar-thumb:hover{ background-color: #ffffff22; border-radius: 50px; } ::-webkit-scrollbar-track{ background-color: #00000022; border-radius: 50px; } ::-webkit-scrollbar-track:hover{ background-color: #31313122; } ::-webkit-scrollbar{ width: 13px; }
 </style>
@@ -63,7 +63,7 @@
     <div style="">
         <div class="pre-scrollable animated fadeInRight slow" style="background-color:#00000088;position:absolute;width: 30%; right: 0px; padding:0px; margin:0px;"><br>
 
-            <div style="margin:0px; padding:0px; height:500px;overflow-y: scroll;">
+            <div style="margin:0px; padding:0px; height:55vh;overflow-y: scroll;">
                 <div id="chat">
 
                 </div>
