@@ -14,12 +14,11 @@
 
             for (var i = 0; i < pb.getNom(id).length - 2; i++) {
                 var suivant = (pb.getNom(id)[i+2])-2;
-                console.log(suivant);
                 $("#buttonsList").append("<div class=\"myButton\" onclick=\"update(" + suivant + ")\">" +
                     (this.csv.getNom(pb.getNom(id)[i + 2]-2))[0] + "</div>");
-                console.log(id);
             }
-            $("#buttonsList").append("<div class=\"myButton\" onclick=\"update(4)\>Retour Au menu</div>");
+            //$(#chat)
+            //$("#buttonsList").append("<div class=\"myButton\" onclick=\"update(4)\>Retour Au menu</div>");
             
 
         }

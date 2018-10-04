@@ -49,40 +49,44 @@
             </div>
     </nav>
     <div id="changeVid">
-        <video class="animated fadeIn fast" autoplay muted loop id="myVideo" style="position: absolute;">
+        <!-- class="animated fadeIn fast" -->
+        <video  autoplay muted loop id="myVideo" style="position: absolute; z-index:-1;">
             <source src="./video/Presentation_CAMPUS_HEP_Nantes.mp4" type="video/mp4">
         </video>
     </div>
-        <div>
-    <div class="pre-scrollable animated fadeInRight slow" style="position:absolute;background-color: #88888888;margin-left: 70%;max-height: 75%;height:75%;border-radius: 10px;width: 30%;"><br>
+    <div style="">
+        <!-- class="pre-scrollable animated fadeInRight slow"-->
+        <div  style="float:right;width: 30%;right:0px;height:500px;overflow-y:scroll;"><br>
 
-        <div id="chat">
-            <script>
-                cb = new ChatBot();
-                cb.printText("question oui1", "decal-gauche");
+            <div id="chat">
+                <script>
+                    cb = new ChatBot();
+                    cb.printText("question oui1", "decal-gauche");
 
-            </script>
-            <script>
-                cb = new ChatBot();
-                cb.printText("reponse 2", "decal-droit");
+                </script>
+                <script>
+                    cb = new ChatBot();
+                    cb.printText("reponse 2", "decal-droit");
 
-            </script>
+                </script>
+            </div>
+
+            <div id="buttonsList" class="choiceBox" style="position: absolute;">
+                <div class="myButton" onclick="update(0)">Demarrer visite</div>
+            </div>
         </div>
+        <script>
+            function update(id) {
+                pb = new CsvToArray();
+                cb = new ChatBot(pb);
+                cb.buttonAssociator(id);
+                var div = document.getElementById("chat");
+                div.innerHTML += "<div class=decal-droit><p>" + pb.getNom(id)[0] + "</p></div>";
+                console.log(pb.getNom(id));
+                cb.readTextFile("data/" + (id + 2) + ".txt");
+            }
 
-
-        <div id="buttonsList" class="choiceBox" style="position:sticky;">
-            <div class="myButton" onclick="update(0)">demarrerVisite</div>
-        </div>
-        </div>
-    </div>
-    <script>
-        function update(id) {
-            pb = new CsvToArray();
-            cb = new ChatBot(pb);
-            cb.buttonAssociator(id);
-        }
-
-    </script>
+        </script>
 
 </body>
 
