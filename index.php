@@ -14,9 +14,50 @@
     <script src="ChatBot/ChatBot.js"></script>
     <script src="js/changementVideo.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
-    <style>
-        ::-webkit-scrollbar-button{ display: none; height: 13px; border-radius: 0px; background-color: #AAAAAA55; } ::-webkit-scrollbar-button:hover{ background-color: #AAAAAA55; } ::-webkit-scrollbar-thumb{ background-color: #CCCCCC22; box-shadow: 2px 2px 10px rgba(0,0,0,5) inset; border-radius: 5px; } ::-webkit-scrollbar-thumb:hover{ background-color: #ffffff22; border-radius: 50px; } ::-webkit-scrollbar-track{ background-color: #00000022; border-radius: 50px; } ::-webkit-scrollbar-track:hover{ background-color: #31313122; } ::-webkit-scrollbar{ width: 13px; }
-</style>
+    <style type="text/css">
+        ::-webkit-scrollbar {
+            width: 5px;
+            height: 5px;
+        }
+
+        ::-webkit-scrollbar-button {
+            width: 0px;
+            height: 0px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #e1e1e1;
+            border: 0px none #ffffff;
+            border-radius: 50px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #ffffff;
+        }
+
+        ::-webkit-scrollbar-thumb:active {
+            background: #000000;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #666666;
+            border: 0px none #ffffff;
+            border-radius: 50px;
+        }
+
+        ::-webkit-scrollbar-track:hover {
+            background: #666666;
+        }
+
+        ::-webkit-scrollbar-track:active {
+            background: #333333;
+        }
+
+        ::-webkit-scrollbar-corner {
+            background: transparent;
+        }
+
+    </style>
 </head>
 
 <body>
@@ -81,19 +122,19 @@
             function bottom() {
                 document.getElementById('bottom').scrollIntoView();
             }
-            
-            function wayBack(id){
+
+            function wayBack(id) {
                 window.step.pop();
                 window.step.pop();
                 update(id);
-                
+
             }
 
             function update(id) {
                 pb = new CsvToArray();
                 cb = new ChatBot(pb);
                 window.step.push(id);
-                cb.buttonAssociator(id,window.step[window.step.length-2]);
+                cb.buttonAssociator(id, window.step[window.step.length - 2]);
                 var div = document.getElementById("chat");
                 div.innerHTML += "<div class=decal-droit><p>" + pb.getNom(id)[0] + "</p></div>";
                 console.log(pb.getNom(id));
