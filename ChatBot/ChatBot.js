@@ -10,11 +10,11 @@
             $("#chat").append("<div class=" + cssclass + "><p>" + message + "</p></div>");
         }
 
-        buttonAssociator(obj) {
+        buttonAssociator(obj,csv) {
             $("#buttonsList").empty();
             for (var i = 0; i < obj.length - 2; i++) {
                 $("#buttonsList").append("<div class=\"myButton\" onclick=\"changeContent("
-                    +obj[i + 2]+")\">" + "école" + "</div>");
+                    +obj[i + 2]+")\">" + (csv.getNom(obj[i+2]))[0] + "</div>");
             }
 
         }

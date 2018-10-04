@@ -9,8 +9,7 @@
     <link href="css/bootstrap.css" rel="stylesheet" media="screen">
     <link rel="icon" href="favicon.ico" />
     <script src="js/bootstrap.min.js"></script>
-    <script src="ChatBot/csvtoarray.js"></script>
-    <script src="https://d3js.org/d3.v5.js"></script>
+    <script src="Chatbot/CsvToArray.js"></script>
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="ChatBot/ChatBot.js"></script>
     <script src="js/changementVideo.js"></script>
@@ -26,7 +25,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item animated fadeInRight slow">
+                        <li class="nav-item active animated fadeInRight slow">
                             <a class="nav-link" href="#">Accueil</a>
                         </li>                        
                         <li class="nav-item">
@@ -43,7 +42,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="nav-item active animated fadeInRight slow">
+                        <li class="nav-item animated fadeInRight slow">
                             <a class="nav-link" href="./pages du site/aPropos.php">A propos</a>
                         </li>
                     </ul>
@@ -59,21 +58,13 @@
         <div id="chat">
             <script>
                 cb = new ChatBot();
-                cb.printText("question 1", "decal-gauche");
+                cb.printText("question oui1", "decal-gauche");
 
             </script>
             <script>
                 cb = new ChatBot();
                 cb.printText("reponse 2", "decal-droit");
 
-            </script>
-            <script>
-                cb = new ChatBot();
-                cb.printText("reponse 2", "decal-droit");
-                csv = new csvtoarray();
-                var nom = [];
-                nom = csv.getNom(6);
-                console.log(nom);
             </script>
         </div>
 
@@ -86,8 +77,9 @@
     </div>
     <script>
         cb = new ChatBot();
-        cb.buttonAssociator(["Epsi", "epsi.txt", "1","2","3"]);
-
+        pb = new CsvToArray();
+        alert((pb.getNom(4)));
+        cb.buttonAssociator(pb.getNom(4),pb);
     </script>
 
 </body>

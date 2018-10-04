@@ -1,16 +1,9 @@
-var tab = [];
-class csvtoarray {
+class CsvToArray {
 
     constructor() {
-            $.ajax({
-                type: "GET",
-                url: "data/bdd.csv",
-                dataType: "text",
-                success: function (data) {
-                    tab = processData(data);
-                }
-            });
-        function processData(allText){
+        var myvar;
+
+        function processData(allText) {
             var allTextLines = allText.split(/\r\n|\n/);
             var headers = allTextLines[0].split(',');
             var lines = [];
@@ -21,18 +14,34 @@ class csvtoarray {
 
                     var tarr = [];
                     for (var j = 0; j < headers.length; j++) {
-                        tarr.push(data[j]);
+                        if (data[j] !== ""){
+                            tarr.push(data[j]);                          
+                        }
+
                     }
                     lines.push(tarr);
                 }
             }
             return lines;
         }
+
+        $.ajax({
+            type: "GET",
+            url: "data/bdd.csv",
+            dataType: "text",
+            async: false,
+            success: function (data) {
+                myvar = data;
+            }
+        });
+        this.tab = processData(myvar);
+
     }
+
+
     getNom(index) {
-        var nom = tab[index];
+
+        var nom = this.tab[index];
         return nom
     }
 }
-
-
