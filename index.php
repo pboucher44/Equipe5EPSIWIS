@@ -56,10 +56,6 @@
         <div class="pre-scrollable animated fadeInRight slow" style="position:absolute;background-color: #88888888;margin-left: 70%;max-height: 75%;border-radius: 30px;width: 30%"><br>
 
             <div id="chat">
-                <script>
-                    cb = new ChatBot();
-                    cb.printText("question oui1", "decal-gauche");
-                </script>
             </div>
 
 
