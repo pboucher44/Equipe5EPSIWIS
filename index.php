@@ -43,50 +43,57 @@
                                 <a class="nav-link" style="border-top: solid;" href="http://www.ecoles-supdecom.com/campus/nantes/" target=_blank>SUP DE COM</a>
                                 <a class="nav-link" style="border-top: solid;" href="http://www.wis-ecoles.com/campus/campus-de-nantes/" target=_blank>WIS</a>
                             </div>
-                        </div>
-            </div>
-            </li>
-            <li class="nav-item animated fadeInRight slow">
-                <a class="nav-link" href="./pages du site/aPropos.php">A propos</a>
-            </li>
-            </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item animated fadeInRight slow">
+                            <a class="nav-link" href="./pages du site/aPropos.php">A propos</a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+        <div id="changeVid">
+            <video  autoplay muted loop id="myVideo" class="animated fadeIn fast" style="position: absolute; z-index:-1;">
+                <source src="./video/Presentation_CAMPUS_HEP_Nantes.mp4" type="video/mp4">
+            </video>
         </div>
-    </nav>
-    <div id="changeVid">
-        <video autoplay muted loop id="myVideo" class="animated fadeIn fast" style="position: absolute; z-index:-1;">
-            <source src="./video/Presentation_CAMPUS_HEP_Nantes.mp4" type="video/mp4">
-        </video>
-    </div>
-    <div style="">
-        <!-- -->
-        <div class="pre-scrollable animated fadeInRight slow" style="background-color:#00000088;position:absolute;width: 30%; right: 0px; padding:0px; margin:0px;"><br>
+        <div style="">
+            <!-- -->
+            <div class="pre-scrollable animated fadeInRight slow" style="background-color:#00000088;position:absolute;width: 30%; right: 0px; padding:0px; margin:0px;"><br>
 
-            <div id="chat" class"specialScroll" style="margin:0px; padding:0px; height:500px;overflow-y: scroll;">
+                <div style="margin:0px; padding:0px; height:500px;overflow-y: scroll;">
+                    <div id="chat">
+
+                    </div>
+                    <div id="bottom">
+
+                    </div>
+                </div>
+
+
+                <div id="buttonsList" class="choiceBox">
+                    <div class="myButton" onclick="update(0)">Demarrer visite</div>
+                </div>
             </div>
-
-
-            <div id="buttonsList" class="choiceBox">
-                <div class="myButton" onclick="update(0)">Demarrer visite</div>
-            </div>
-        </div>
-        <script>
-            function update(id) {
-                pb = new CsvToArray();
-                cb = new ChatBot(pb);
-                cb.buttonAssociator(id);
-                var div = document.getElementById("chat");
-                div.innerHTML += "<div class=decal-droit><p>" + pb.getNom(id)[0] + "</p></div>";
-                console.log(pb.getNom(id));
-                cb.readTextFile("data/" + (id + 2) + ".txt");
-            }
-
-            function restart() {
-                $("#buttonsList").empty();
-                $("#buttonsList").append("<div class=\"myButton\" onclick=\"update(0)\">Demarrer visite</div>");
-                $("#chat").empty();
-            }
-
-        </script>
+            <script>
+                function bottom() {
+                    document.getElementById('bottom').scrollIntoView();
+                }
+                function update(id) {
+                    pb = new CsvToArray();
+                    cb = new ChatBot(pb);
+                    cb.buttonAssociator(id);
+                    var div = document.getElementById("chat");
+                    div.innerHTML += "<div class=decal-droit><p>" + pb.getNom(id)[0] + "</p></div>";
+                    console.log(pb.getNom(id));
+                    cb.readTextFile("data/" + (id + 2) + ".txt");
+                    bottom();
+                }
+                function restart() {
+                    $("#buttonsList").empty();
+                    $("#buttonsList").append("<div class=\"myButton\" onclick=\"update(0)\">Demarrer visite</div>");
+                    $("#chat").empty();
+                }
+            </script>
 
 </body>
 
