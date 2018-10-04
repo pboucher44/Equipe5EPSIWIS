@@ -1,1 +1,13 @@
-modules
+Bloc de compétences n° 1 – Fonctions d’encadrement
+<br>
+Bloc de compétences n° 2 – Méthodes &amp; Projets
+<br>
+Bloc de compétences n° 3 – Gestion de données &amp; Business Intelligence
+<br>
+Bloc de compétences n° 4 – Etudes &amp; développement
+<br>
+Bloc de compétences n° 5 – Infrastructure Systèmes &amp; Réseaux
+<br>
+Choix du parcours complémentaire : Réseaux et systèmes / Sécurité informatique et système d’information / Business Intelligence et Big Data
+<br>
+STAGE 3 mois ou ALTERNANCE en entreprise
