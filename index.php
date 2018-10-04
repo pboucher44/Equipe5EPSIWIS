@@ -80,6 +80,7 @@
         pb = new CsvToArray();
         alert((pb.getNom(4)));
         cb.buttonAssociator(pb.getNom(4),pb);
+        cb.readTextFile("/data/15.txt")
     </script>
 
 </body>
