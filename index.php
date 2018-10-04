@@ -59,12 +59,6 @@
             <script>
                 cb = new ChatBot();
                 cb.printText("question oui1", "decal-gauche");
-
-            </script>
-            <script>
-                cb = new ChatBot();
-                cb.printText("reponse 2", "decal-droit");
-
             </script>
         </div>
 
