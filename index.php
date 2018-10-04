@@ -64,6 +64,12 @@
             </div>
         </div>
         <script>
+            function topeuh() {
+                document.getElementById('chat').scrollIntoView();
+            }
+            function bottom() {
+                document.getElementById('buttonsList').scrollIntoView();
+            }
             function update(id) {
                 pb = new CsvToArray();
                 cb = new ChatBot(pb);
@@ -72,6 +78,7 @@
                 div.innerHTML += "<div class=decal-droit><p>" + pb.getNom(id)[0] + "</p></div>";
                 console.log(pb.getNom(id));
                 cb.readTextFile("data/" + (id + 2) + ".txt");
+                bottom();
             }
             function restart() {
                 $("#buttonsList").empty();
