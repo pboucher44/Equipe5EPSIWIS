@@ -70,7 +70,7 @@
 
 
         <div id="buttonsList" class="choiceBox">
-            <div class="myButton" onclick="update(0)">stage</div>
+            <div class="myButton" onclick="update(0)">Demarrer visite</div>
         </div>
     </div>
     <script>
@@ -78,8 +78,11 @@
             pb = new CsvToArray();
             cb = new ChatBot(pb);
             cb.buttonAssociator(id);
+            var div = document.getElementById("chat");
+            div.innerHTML += "<div class=decal-droit><p>" + pb.getNom(id)[0] + "</p></div>";
+            console.log(pb.getNom(id));
+            cb.readTextFile("data/"+(id+2)+".txt");
         }
-
     </script>
 
 </body>
