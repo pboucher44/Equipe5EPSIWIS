@@ -29,7 +29,8 @@
                     if(rawFile.status === 200 || rawFile.status == 0)
                     {
                         var allText = rawFile.responseText;
-                        alert(allText);
+                        var div = document.getElementById("chat");
+                        div.innerHTML += "<div class=decal-gauche><p>" + allText + "</p></div>";
                     }
                 }
             }
