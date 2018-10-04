@@ -2,32 +2,35 @@
 
     class ChatBot {
 
-
-        constructor() {
-
+        constructor(pb) {
+            this.csv = pb;
         }
         printText(message, cssclass) {
             $("#chat").append("<div class=" + cssclass + "><p>" + message + "</p></div>");
         }
 
-        buttonAssociator(obj,csv) {
+        buttonAssociator(id) {
             $("#buttonsList").empty();
-            for (var i = 0; i < obj.length-2; i++) {
-                $("#buttonsList").append("<div class=\"myButton\" onclick=\"changeContent("
-                    +obj[i+2]+")\">" + (csv.getNom((obj[i+2])-2))[0] + "</div>");
+ //           for (var i = 0; i < obj.length-2; i++) {
+  //              $("#buttonsList").append("<div class=\"myButton\" onclick=\"changeContent("
+  //                  +obj[i+2]+")\">" + (csv.getNom((obj[i+2])-2))[0] + "</div>");
+
+            for (var i = 0; i < pb.getNom(id).length - 2; i++) {
+                var suivant = (pb.getNom(id)[i+2])-2;
+                console.log(suivant);
+                $("#buttonsList").append("<div class=\"myButton\" onclick=\"update(" + suivant + ")\">" +
+                    (this.csv.getNom(pb.getNom(id)[i + 2]-2))[0] + "</div>");
+                console.log(id);
             }
 
         }
-        
-        readTextFile(file){
+
+        readTextFile(file) {
             var rawFile = new XMLHttpRequest();
             rawFile.open("GET", file, false);
-            rawFile.onreadystatechange = function ()
-            {
-                if(rawFile.readyState === 4)
-                {
-                    if(rawFile.status === 200 || rawFile.status == 0)
-                    {
+            rawFile.onreadystatechange = function () {
+                if (rawFile.readyState === 4) {
+                    if (rawFile.status === 200 || rawFile.status == 0) {
                         var allText = rawFile.responseText;
                         var div = document.getElementById("chat");
                         div.innerHTML += "<div class=decal-gauche><p>" + allText + "</p></div>";
