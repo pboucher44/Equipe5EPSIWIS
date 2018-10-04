@@ -12,9 +12,9 @@
 
         buttonAssociator(obj,csv) {
             $("#buttonsList").empty();
-            for (var i = 0; i < obj.length - 2; i++) {
+            for (var i = 0; i < obj.length-2; i++) {
                 $("#buttonsList").append("<div class=\"myButton\" onclick=\"changeContent("
-                    +obj[i + 2]+")\">" + (csv.getNom(obj[i+2]))[0] + "</div>");
+                    +obj[i+2]+")\">" + (csv.getNom((obj[i+2])-2))[0] + "</div>");
             }
 
         }

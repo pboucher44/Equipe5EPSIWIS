@@ -78,8 +78,9 @@
     <script>
         cb = new ChatBot();
         pb = new CsvToArray();
-        alert((pb.getNom(4)));
-        cb.buttonAssociator(pb.getNom(4),pb);
+        alert((pb.getNom(0)));
+        alert((pb.getNom(0)));
+        cb.buttonAssociator(pb.getNom(0),pb);
         cb.readTextFile("data/"+(pb.getNom(4))[1]);
         cb.readTextFile("data/"+(pb.getNom(4))[1]);
         cb.readTextFile("data/"+(pb.getNom(4))[1]);
