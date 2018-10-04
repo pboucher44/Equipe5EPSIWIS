@@ -53,7 +53,8 @@
             <source src="./video/Presentation_CAMPUS_HEP_Nantes.mp4" type="video/mp4">
         </video>
     </div>
-    <div class="pre-scrollable animated fadeInRight slow" style="position:absolute;background-color: #88888888;margin-left: 70%;max-height: 75%;border-radius: 30px;width: 30%"><br>
+        <div>
+    <div class="pre-scrollable animated fadeInRight slow" style="position:absolute;background-color: #88888888;margin-left: 70%;max-height: 75%;height:75%;border-radius: 10px;width: 30%;"><br>
 
         <div id="chat">
             <script>
@@ -69,8 +70,9 @@
         </div>
 
 
-        <div id="buttonsList" class="choiceBox">
-            <div class="myButton" onclick="update(0)">stage</div>
+        <div id="buttonsList" class="choiceBox" style="position:sticky;">
+            <div class="myButton" onclick="update(0)">demarrerVisite</div>
+        </div>
         </div>
     </div>
     <script>
