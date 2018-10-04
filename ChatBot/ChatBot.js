@@ -17,17 +17,14 @@ class ChatBot {
             return $(document).height() - this.scrollTop() - this.height();
         };
         $("#buttonsList").empty();
-        //           for (var i = 0; i < obj.length-2; i++) {
-        //              $("#buttonsList").append("<div class=\"myButton\" onclick=\"changeContent("
-        //                  +obj[i+2]+")\">" + (csv.getNom((obj[i+2])-2))[0] + "</div>");
-
         for (var i = 0; i < pb.getNom(id).length - 2; i++) {
             var suivant = (pb.getNom(id)[i + 2]) - 2;
             $("#buttonsList").append("<div class=\"myButton\" onclick=\"update(" + suivant + ")\">" +
                 (this.csv.getNom(pb.getNom(id)[i + 2] - 2))[0] + "</div>");
         }
+        console.log(id);
         if (id > 0) {
-            $("#buttonsList").append("<div class=\"myButton\" onclick=\"update(" + (id - 1) + ")\">Retour</div>");
+            $("#buttonsList").append("<div class=\"myButton\" onclick=\"update(" + id + ")\">Retour</div>");
             $("#buttonsList").append("<div class=\"myButton\" onclick=\"restart()\">Recommencer la visite</div>");
         }
         $("#buttonsList").scrollBottom();
