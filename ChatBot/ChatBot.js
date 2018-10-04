@@ -11,10 +11,11 @@
         }
 
         buttonAssociator(obj) {
+            pb = new CsvToArray();
             $("#buttonsList").empty();
             for (var i = 0; i < obj.length - 2; i++) {
                 $("#buttonsList").append("<div class=\"myButton\" onclick=\"changeContent("
-                    +obj[i + 2]+")\">" + "école" + "</div>");
+                    +obj[i + 2]+")\">" + (pb.getNom(obj[i+2]))[0] + "</div>");
             }
 
         }

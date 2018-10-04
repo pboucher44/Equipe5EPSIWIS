@@ -10,7 +10,6 @@
     <link rel="icon" href="favicon.ico" />
     <script src="js/bootstrap.min.js"></script>
     <script src="Chatbot/CsvToArray.js"></script>
-    <script src="https://d3js.org/d3.v5.js"></script>
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="ChatBot/ChatBot.js"></script>
     <script src="js/changementVideo.js"></script>
@@ -26,7 +25,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item animated fadeInRight slow">
+                        <li class="nav-item active animated fadeInRight slow">
                             <a class="nav-link" href="#">Accueil</a>
                         </li>                        
                         <li class="nav-item">
@@ -43,7 +42,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="nav-item active animated fadeInRight slow">
+                        <li class="nav-item animated fadeInRight slow">
                             <a class="nav-link" href="./pages du site/aPropos.php">A propos</a>
                         </li>
                     </ul>
@@ -79,8 +78,8 @@
     <script>
         cb = new ChatBot();
         pb = new CsvToArray();
-        alert((pb.getNom(10))[1]);
-        //cb.buttonAssociator();
+        alert((pb.getNom(4)));
+        cb.buttonAssociator(pb.getNom(4));
 
     </script>
 
