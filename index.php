@@ -141,7 +141,10 @@
                 cb.readTextFile("data/" + (id + 2) + ".txt");
                 if(pb.getNom(id)[0]==="EPSI"){
                     changeContent("44.png");
+                }else if(pb.getNom(id)[0]==="Espace de Vie"){
+                    changeContent("espace de vie.mp4");
                 }
+                
                 bottom();
             }
 
