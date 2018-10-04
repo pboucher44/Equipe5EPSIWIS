@@ -1,5 +1,3 @@
-var steps = ["step0", "step1", "step2", "step3", "step4", "step5", "step6", "step7"];
-
 class ChatBot {
     constructor(pb) {
         this.csv = pb;
@@ -12,7 +10,7 @@ class ChatBot {
         }
     }
 
-    buttonAssociator(id) {
+    buttonAssociator(id,prev) {
         $.fn.scrollBottom = function () {
             return $(document).height() - this.scrollTop() - this.height();
         };
@@ -27,7 +25,7 @@ class ChatBot {
                 (this.csv.getNom(pb.getNom(id)[i + 2] - 2))[0] + "</div>");
         }
         if (id > 0) {
-            $("#buttonsList").append("<div class=\"myButton\" onclick=\"update(" + (id - 1) + ")\">Retour</div>");
+            $("#buttonsList").append("<div class=\"myButton\" onclick=\"wayBack(" + prev + ")\">Retour</div>");
             $("#buttonsList").append("<div class=\"myButton\" onclick=\"restart()\">Recommencer la visite</div>");
         }
         $("#buttonsList").scrollBottom();
