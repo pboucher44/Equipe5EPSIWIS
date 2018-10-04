@@ -49,16 +49,15 @@
             </div>
     </nav>
     <div id="changeVid">
-        <!-- class="animated fadeIn fast" -->
-        <video  autoplay muted loop id="myVideo" style="position: absolute; z-index:-1;">
+        <video  autoplay muted loop id="myVideo" class="animated fadeIn fast" style="position: absolute; z-index:-1;">
             <source src="./video/Presentation_CAMPUS_HEP_Nantes.mp4" type="video/mp4">
         </video>
     </div>
     <div style="">
-        <!-- class="pre-scrollable animated fadeInRight slow"-->
-        <div  style="position:absolute;width: 30%; right: 0px; padding:0px; margin:0px;"><br>
+        <!-- -->
+        <div class="pre-scrollable animated fadeInRight slow" style="background-color:#00000088;position:absolute;width: 30%; right: 0px; padding:0px; margin:0px;"><br>
 
-            <div id="chat" style="height:250px;overflow-y: scroll;">
+            <div id="chat" style="margin:0px; padding:0px; height:550px;overflow-y: scroll;">
                 <script>
                     cb = new ChatBot();
                     cb.printText("question oui1", "decal-gauche");
