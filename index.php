@@ -56,9 +56,9 @@
     </div>
     <div style="">
         <!-- class="pre-scrollable animated fadeInRight slow"-->
-        <div  style="float:right;width: 30%;right:0px;height:500px;overflow-y:scroll;"><br>
+        <div  style="position:absolute;width: 30%; right: 0px; padding:0px; margin:0px;"><br>
 
-            <div id="chat">
+            <div id="chat" style="height:250px;overflow-y: scroll;">
                 <script>
                     cb = new ChatBot();
                     cb.printText("question oui1", "decal-gauche");
@@ -68,10 +68,11 @@
                     cb = new ChatBot();
                     cb.printText("reponse 2", "decal-droit");
 
+
                 </script>
             </div>
 
-            <div id="buttonsList" class="choiceBox" style="position: absolute;">
+            <div id="buttonsList" class="choiceBox">
                 <div class="myButton" onclick="update(0)">Demarrer visite</div>
             </div>
         </div>
