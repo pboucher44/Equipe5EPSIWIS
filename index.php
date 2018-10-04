@@ -84,6 +84,7 @@
             
             function wayBack(id){
                 window.step.pop();
+                window.step.pop();
                 update(id);
                 
             }
