@@ -1,1 +1,7 @@
-services
+My Studapart, la plateforme logement spéciale Etudiants
+<br>
+My Studapart est une plateforme de logement – location, colocation, sous-location – exclusivement réservée aux étudiants des écoles membres de HEP EDUCATION.
+<br>
+My Campus Store, la plateforme de « Ventes privées » spéciale Etudiants
+<br>
+My Campus Store est la première plateforme de « Ventes Privées » exclusivement réservée aux étudiants des écoles membres de HEP EDUCATION.

@@ -1,1 +1,11 @@
-modules
+Bloc de compétences n° 1 – Développements d’applications informatiques
+<br>
+Bloc de compétences n° 2 – Administration infrastructure système &amp; réseau gestion des données
+<br>
+Bloc de compétences n° 3 – Gestion des données
+<br>
+Bloc de compétences n° 4 – Méthodes &amp; Projets
+<br>
+Bloc de compétences n° 5 – Communication
+<br>
+Stage en entreprise : Stage de 4 à 5 semaines

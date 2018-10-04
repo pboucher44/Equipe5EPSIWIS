@@ -1,1 +1,14 @@
-cursus
+La formation informatique de l’EPSI se compose de deux cycles :
+<br>
+1er CYCLE : Le programme Bachelor informatique, prépare les apprenants à un titre de
+niveau II (Bac +3/4) certifié par le RNCP .
+<br>
+Les élèves peuvent également présenter le BTS SIO (Services Informatiques aux
+Organisations) afin de sécuriser leur parcours.
+<br>
+2nd CYCLE : Le programme Ingénierie informatique prépare les apprenants à un titre de
+niveau I (Bac+5) « Expert en informatique et système d’information » certifié par le RNCP.
+<br>
+À partir de la 3ème année, les apprenants peuvent suivre leur formation informatique en initial ou par
+alternance.
+Sur quel programme veux-tu des informations ?
