@@ -1,1 +1,29 @@
-tarifs
+Bachelor 1 
+<br>
+Concours 90€
+<br>
+Scolarité 6 690€
+<br>
+Bachelor 2 
+<br>
+Concours 90€
+<br>
+Scolarité 6 690€
+<br>
+Bachelor 3 
+<br>
+Concours 90€
+<br>
+Scolarité 8 290€
+<br>
+Ingénierie 4 
+<br>
+Concours 100€
+<br>
+Scolarité 8 690€
+<br>
+	Ingénierie 5 
+<br>
+	Concours 125€
+<br>
+	Scolarité 9 000€
